@@ -6,3 +6,4 @@ FragmentDos -> Fragment que muestra el webView donde se intenta realizar accione
 WebView -> webView que carga el arhivo index.html donde se carga releasePad
 
 index.html -> Para actualizar el contenido solo agregue el nuevo codigo y compile de nuevo el proyecto 
+
