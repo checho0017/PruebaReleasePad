@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html  style="background:transparent;">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!--
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+<div id="whats-new" style="float: left;">What's New</div>
+<div style="clear: both;"> </div>
+</body>
+<input type="button" value="Say hello" onClick="showAndroidToast('Hello Android!')" />
+-->
+<link rel="stylesheet" href="styles.css">
+<body style="background-color: white;  max-width: 50px; max-height: 50px">
+<div id="rp-token" class="rp-container" onClick="showAndroidToast('Hello!!!')" data-param="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwcm9kdWN0X2lkIjoxMDR9.KQlqPiyMOrR_T7D6xVznzRU2ZxOluFpmoIFi-bKdPAA" lang="es" data-user-metadata=""></div>
+
+
+<!-- funcion que vincula el codigo nativo-->
+<!--Android. hace referencia a WebAppInterface -->
+<!-- showToast es la funcion declarada en la inteface-->
+<script type="text/javascript">
+        function showAndroidToast(toast) {
+            Android.showToast(toast);
+        }
+    </script>
+
+<!--Intento de realizar una accion al hacer click en la x para cerrar la notificaciones de relasePad-->
+<script type="text/javascript">
+    	  function showAndroidToast(toast) {
+            Android.showToast(toast);
+        }
+    	document.getElementsByClassName('MuiSvgIcon-root jss69').onClick(showAndroidToast('Bton cerrar'));
+
+    </script>
+
+<script type="text/javascript">
+       docu
+    </script>
+<!--<script type="text/javascript" src="https://widget.releasepad.io/releasepad-bundle.js" charset="utf-8"></script>-->
+<link rel="stylesheet" href="https://widget.releasepad.io/releasepad-bundle.min.css">
+<script type="text/javascript" src="https://widget.releasepad.io/releasepad-bundle.js"   charset="utf-8"></script>
+
+
+<link rel="stylesheet" href="https://widget.releasepad.io/releasepad-bundle.min.css">
+<!--<script> $("#whats-new").on('click', function(){ $('.rp-container').click() }  function showAndroidToast('hola') {
+            Android.showToast(toast);
+        }) </script>-->
+</body>
+</html>
+<br>
